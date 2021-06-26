@@ -10,9 +10,7 @@ def homepage(request):
 
 def count(request):
     text=request.GET['fulltext']
-
     wordlist = text.split()
-
     num=len(wordlist)
 
     worddictionary={}
